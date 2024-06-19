@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ListaTarefa",
+            "request": "launch",
+            "mainClass": "src.main.java.list.OperacoesBasicas.ListaTarefa",
+            "projectName": "collections-java-api-2024_22339020"
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "src.list.Tarefa",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
